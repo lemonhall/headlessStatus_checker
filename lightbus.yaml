@@ -16,6 +16,7 @@ apis:
 
   default:
     # Api config
+    rpc_timeout : 15
 
     event_transport:
       # Transport selector configuration
