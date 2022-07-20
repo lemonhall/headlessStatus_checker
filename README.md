@@ -1,3 +1,10 @@
+## chrome的状态检查器
+![](/1.png)
+
+### 运行进程
+
+<img width="1407" alt="image" src="https://user-images.githubusercontent.com/637919/180042305-e16e2dd6-75d3-43a5-ac86-31f409ea2ac9.png">
+
 ### 新建一个环境
 conda create --name webdriver python=3.8 --channel https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 
