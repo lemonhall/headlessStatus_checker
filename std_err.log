@@ -1,0 +1,28 @@
+supervisor: couldn't chdir to /Users/lemonhall/webdriver/lightbus: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /Users/lemonhall/webdriver/lightbus: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /Users/lemonhall/webdriver/lightbus: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /Users/lemonhall/webdriver/lightbus: ENOENT
+supervisor: child process was not spawned
+MainThread | lightbus.creation              | Importing bus.py from [01mbus[0m
+MainThread | lightbus.creation              | Loading config from /Users/lemonhall/webdriver/lightbus.yaml
+MainThread | lightbus.commands.run          | Lightbus is setting up: service_name (set with -s or LIGHTBUS_SERVICE_NAME):[01mmute-mode-769[0m, process_name (with with -p or LIGHTBUS_PROCESS_NAME):[01miyvq[0m
+MainThread | lightbus.commands.run          | Default transports are setup as follows: RPC transport:TransportPool @ [01mredis://192.168.50.233:18505/0[0m[0m, Result transport:TransportPool @ [01mredis://192.168.50.233:18505/0[0m[0m, Event transport:TransportPool @ [01mredis://192.168.50.233:18505/0[0m[0m, Schema transport:TransportPool @ [01mredis://192.168.50.233:18505/0[0m[0m
+MainThread | lightbus.commands.run          | No plugins loaded
+MainThread | lightbus.client.bus_client     | Enabled features (3): rpcs, events, tasks
+MainThread | lightbus.client.bus_client     | Disabled features (0): 
+MainThread | lightbus.client.bus_client     | APIs in registry (3): internal.state, internal.metrics, getLantStatus
+MainThread | lightbus.client.bus_client     | Loaded the following remote schemas (4): internal.metrics, hello, getLantStatus, internal.state
+MainThread | lightbus.client.bus_client     | Loaded the following local schemas (4): internal.state, internal.metrics, getLantStatus
+MainThread | lightbus.client.bus_client     | Executing before_worker_start & on_start hooks...
+MainThread | lightbus.client.bus_client     | Execution of before_worker_start & on_start hooks was successful
+MainThread | lightbus.client.subclients.rpc_result | ⚡  Executed getLantStatus.get in 2.1 seconds
+MainThread | lightbus.client.subclients.rpc_result | ⚡  Executed getLantStatus.get in 440.3 milliseconds
+MainThread | lightbus.client.subclients.rpc_result | ⚡  Executed getLantStatus.get in 374.14 milliseconds
+MainThread | lightbus.client.subclients.rpc_result | ⚡  Executed getLantStatus.get in 411.06 milliseconds
+MainThread | lightbus.client.subclients.rpc_result | ⚡  Executed getLantStatus.get in 405.05 milliseconds
+MainThread | lightbus.client.bus_client     | Shutdown requested
+MainThread | lightbus.client.bus_client     | Executing after_worker_stopped & on_stop hooks...
+MainThread | lightbus.client.bus_client     | Execution of after_worker_stopped & on_stop hooks was successful

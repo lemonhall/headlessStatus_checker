@@ -1,0 +1,33 @@
+# Root configuration
+bus:
+  # Bus configuration
+
+  schema:
+    # Schema configuration
+
+    transport:
+      # Transport selector config
+
+      redis:
+        url: "redis://192.168.50.233:18505/0"
+
+apis:
+  # API configuration listing
+
+  default:
+    # Api config
+
+    event_transport:
+      # Transport selector configuration
+      redis:
+        url: "redis://192.168.50.233:18505/0"
+
+    rpc_transport:
+      # Transport selector configuration
+      redis:
+        url: "redis://192.168.50.233:18505/0"
+
+    result_transport:
+      # Transport selector configuration
+      redis:
+        url: "redis://192.168.50.233:18505/0"
